@@ -6,4 +6,4 @@ COPY . .
 
 EXPOSE 8000
 
-CMD ["go", "run", "."]
+CMD ["go", "run", "cmd/server/main.go"]
